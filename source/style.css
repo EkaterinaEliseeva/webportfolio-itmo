@@ -9,6 +9,31 @@ body {
   padding: 0 50px;
 }
 
+.gh {
+  text-decoration: none;
+  color: #4f4f7d;
+  position: relative;
+}
+
+.title {
+  margin-bottom: 4px;
+}
+
+.gh::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  background-image: url('img/github.svg');
+  background-repeat: no-repeat;
+}
+
+.gh:hover {
+    color: SlateBlue;
+}
+
 .navigation {
   margin-right: auto;
 }
